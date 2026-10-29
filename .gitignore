@@ -4,3 +4,5 @@ __pycache__/
 artifacts/
 *.log
 .state/
+*.pdf
+.DS_Store

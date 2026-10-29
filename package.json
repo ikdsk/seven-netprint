@@ -1,0 +1,16 @@
+{
+  "name": "seven-netprint",
+  "version": "0.1.0",
+  "description": "Upload a PDF to 7-Eleven かんたんnetprint (lite.printing.ne.jp) with Playwright and get the reservation number.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "bin": { "seven-netprint": "scripts/netprint.mjs" },
+  "scripts": {
+    "test": "node --test \"tests/*.test.mjs\"",
+    "test:e2e": "NETPRINT_E2E=1 node --test tests/e2e.test.mjs",
+    "make-test-pdf": "node scripts/make-test-pdf.mjs"
+  },
+  "dependencies": { "playwright": "^1.50.0" }
+}
