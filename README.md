@@ -86,3 +86,7 @@ node scripts/make-test-pdf.mjs out.pdf "text"                           # ダミ
 - CAPTCHA・ログイン・Cookieバナーの検出は実サイトでは未発生のため、ローカルのフィクスチャでのみ検証。
 - サイトのエラー文言は推測ベース。登録失敗時の画面は実サイトで未観測。
 - 非公式ツール。サイトの利用規約・仕様変更に従うこと。
+
+## License
+
+MIT — see [LICENSE](LICENSE).
